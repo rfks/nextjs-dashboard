@@ -1,8 +1,12 @@
 {
   "extends": [
-    // "next/core-web-vitals",
-    "next/typescript",
+    "next/core-web-vitals",
+    // "next/typescript",
     "next", 
     "prettier"
-  ]
+    // "eslint:recommended"
+  ],
+  "rules": {
+    "no-unused-vars":"off"
+  }
 }
